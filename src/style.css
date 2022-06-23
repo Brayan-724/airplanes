@@ -6,3 +6,11 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+html {
+  background-color: #2c3e50;
+}
+
+canvas {
+  border: solid 1px black;
+}
