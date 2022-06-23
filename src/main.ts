@@ -1,8 +1,9 @@
+import { CanvasManager } from './CanvasManger'
 import './style.css'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
-app.innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const canvas = CanvasManager.createCanvas(1000, 500);
+CanvasManager.init(canvas);
+
+app.appendChild(canvas);
