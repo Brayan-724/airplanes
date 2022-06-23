@@ -1,4 +1,4 @@
-import { Axis, Vec2 } from "./utils";
+import { Axis, Vec2 } from "@utils";
 
 export class CanvasManager {
   private static _canvas: HTMLCanvasElement;

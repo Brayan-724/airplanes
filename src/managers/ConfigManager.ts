@@ -1,4 +1,4 @@
-import { GetPath, GetValue, objGet, objSet } from "./utils";
+import { GetPath, GetValue, objGet, objSet } from "@utils";
 
 export class ConfigManager<Config extends {}> {
   private config: Config;

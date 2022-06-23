@@ -1,4 +1,4 @@
-import { ConfigManager } from "./ConfigManager";
+import { ConfigManager } from "@managers";
 import { Vec2 } from "./utils/Vec2";
 
 export enum CellType {

@@ -1,4 +1,4 @@
-import { ConfigManager } from "./ConfigManager";
+import { ConfigManager } from "@managers";
 
 export interface PanelConfig {
   size: number,

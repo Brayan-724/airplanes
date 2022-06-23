@@ -1,4 +1,4 @@
-import { CanvasManager } from './CanvasManger'
+import { CanvasManager } from '@managers'
 import './style.css'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
