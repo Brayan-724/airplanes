@@ -3,7 +3,7 @@
 
   &#xa0;
 
-  <a href="https://airplanes-game.vercel.app">Demo</a>
+  <a href="https://airplanes-game.vercel.app">Demo</a><br/>
   <a href="https://airplanes-game-next.vercel.app">Demo @Next</a>
 </div>
 
