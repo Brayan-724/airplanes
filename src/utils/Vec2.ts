@@ -1,3 +1,8 @@
+export enum Axis {
+  X,
+  Y,
+}
+
 export class Vec2 {
   constructor(public x: number, public y: number) {}
 
@@ -20,8 +25,8 @@ export class Vec2 {
   }
 
   div(v: Vec2): this {
-    this.x /= v.x;
-    this.y /= v.y;
+    this.x /= v.x || 0.00001;
+    this.y /= v.y || 0.00001;
     return this;
   }
 
