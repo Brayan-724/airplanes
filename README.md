@@ -3,7 +3,8 @@
 
   &#xa0;
 
-  <!-- <a href="https://airplanes.netlify.app">Demo</a> -->
+  <a href="https://airplanes-game.vercel.app">Demo</a>
+  <a href="https://airplanes-game-next.vercel.app">Demo @Next</a>
 </div>
 
 <h1 align="center">Airplanes</h1>
