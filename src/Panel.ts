@@ -10,4 +10,6 @@ export abstract class Panel {
   constructor() {
     this.config = ConfigManager.getConfig<PanelConfig>("panel").getFrezedConfig();
   }
+
+  draw() {}
 }
